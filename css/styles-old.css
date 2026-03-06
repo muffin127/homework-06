@@ -34,7 +34,7 @@
   margin: 0 auto;
 } */
 
-.hero-button {
+/* .hero-button {
   color: var(--WHITE);
   background-color: var(--IRIS);
   cursor: pointer;
@@ -57,7 +57,7 @@
 .hero-button:hover,
 .hero-button:focus {
   background-color: var(--OCEAN);
-}
+} */
 
 /* Features Section */
 .features-section {
