@@ -58,13 +58,19 @@
             </li>
           </ul>
         </address>
+
+        <button class="burger-btn" type="button">
+          <svg class="burger-icon" width="24" height="24">
+            <use href="./images/icons.svg#icon-group"></use>
+          </svg>
+        </button>
       </div>
     </header>
 
     <!-- Main -->
     <main>
       <!-- Hero Section -->
-      <section class="hero-section">
+      <section class="hero-section hidden">
         <div class="container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
           <button class="hero-button" type="button" data-modal-open>
@@ -74,7 +80,7 @@
       </section>
 
       <!-- Features Section -->
-      <section class="features-section">
+      <section class="features-section hidden">
         <div class="container">
           <h2 class="visually-hidden">Strategy</h2>
           <ul class="list-class">
@@ -131,13 +137,12 @@
       </section>
 
       <!-- Team Section -->
-      <section class="team-section">
+      <section class="team-section hidden">
         <div class="container">
           <h2 class="headline">Our Team</h2>
           <ul class="list-hero">
             <li class="list-item">
               <img
-                class="img-class"
                 src="./images/img01.jpg"
                 alt="Mark Guerrero"
                 width="264"
@@ -180,7 +185,6 @@
             </li>
             <li class="list-item">
               <img
-                class="img-class"
                 src="./images/img02.jpg"
                 alt="Tom Ford"
                 width="264"
@@ -223,7 +227,6 @@
             </li>
             <li class="list-item">
               <img
-                class="img-class"
                 src="./images/img03.jpg"
                 alt="Camila Garcia"
                 width="264"
@@ -266,7 +269,6 @@
             </li>
             <li class="list-item">
               <img
-                class="img-class"
                 src="./images/img04.jpg"
                 alt="Daniel Wilson"
                 width="264"
@@ -312,18 +314,13 @@
       </section>
 
       <!-- Portfolio Section -->
-      <section class="portfolio-section">
+      <section class="portfolio-section hidden">
         <div class="container">
           <h2 class="headline-class">Our Portfolio</h2>
           <ul class="list-one-hero">
             <li class="hero-list-item">
               <div class="portfolio-thumb">
-                <img
-                  class="img-class"
-                  src="./images/img05.jpg"
-                  alt="Banking App"
-                  width="360"
-                />
+                <img src="./images/img05.jpg" alt="Banking App" width="360" />
                 <p class="overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Calorie Tracker App ·
@@ -338,7 +335,6 @@
             <li class="hero-list-item">
               <div class="portfolio-thumb">
                 <img
-                  class="img-class"
                   src="./images/img06.jpg"
                   alt="Cashless Payment"
                   width="360"
@@ -359,7 +355,6 @@
             <li class="hero-list-item">
               <div class="portfolio-thumb">
                 <img
-                  class="img-class"
                   src="./images/img07.jpg"
                   alt="Meditation App"
                   width="360"
@@ -377,12 +372,7 @@
             </li>
             <li class="hero-list-item">
               <div class="portfolio-thumb">
-                <img
-                  class="img-class"
-                  src="./images/img08.jpg"
-                  alt="Taxi Service"
-                  width="360"
-                />
+                <img src="./images/img08.jpg" alt="Taxi Service" width="360" />
                 <p class="overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Calorie Tracker App ·
@@ -397,7 +387,6 @@
             <li class="hero-list-item">
               <div class="portfolio-thumb">
                 <img
-                  class="img-class"
                   src="./images/img09.jpg"
                   alt="Screen Illustrations"
                   width="360"
@@ -416,7 +405,6 @@
             <li class="hero-list-item">
               <div class="portfolio-thumb">
                 <img
-                  class="img-class"
                   src="./images/img10.jpg"
                   alt="Online Courses"
                   width="360"
@@ -438,7 +426,7 @@
     </main>
 
     <!-- Footer -->
-    <footer class="page-footer">
+    <footer class="page-footer hidden">
       <div class="container footer-wrap">
         <!-- Footer-info -->
         <div class="footer-info">
@@ -510,7 +498,7 @@
     </footer>
 
     <!-- Backdrop -->
-    <div class="backdrop" data-modal>
+    <div class="backdrop hidden" data-modal>
       <div class="modal">
         <button class="modal-close-btn" type="button" data-modal-close>
           <svg class="icon-cross" width="8" height="8">
