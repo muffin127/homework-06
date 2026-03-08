@@ -1293,18 +1293,14 @@ img {
 }
 
 .checkbox-text {
-  display: block;
+  display: inline-block;
 }
 
-.privacy-link {
+/* Privacy link */
+.label-checkbox .privacy-link {
   color: var(--IRIS);
-
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 1.33;
-  letter-spacing: 0.04em;
-
+  display: inline;
+  
   text-decoration-line: underline;
   text-decoration-style: solid;
   text-decoration-skip-ink: none;
