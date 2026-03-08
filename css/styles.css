@@ -120,6 +120,7 @@ img {
 
 .logo {
   color: var(--IRIS);
+
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -179,7 +180,7 @@ img {
   visibility: visible;
   pointer-events: auto;
 }
-
+/* nav */
 .mobile-menu-nav {
   margin-bottom: auto;
 }
@@ -197,8 +198,10 @@ img {
   font-weight: 700;
   line-height: 1.11em;
   letter-spacing: 0.02em;
-}
 
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+/* addr */
 .mobile-menu-addr {
   margin-bottom: 48px;
 }
@@ -216,9 +219,24 @@ img {
   font-weight: 500;
   line-height: 1.2em;
   letter-spacing: 0.02em;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.menu-icon-list {
+.mobile-nav-link:hover,
+.mobile-nav-link:focus,
+.mobile-addr-link:hover,
+.mobile-addr-link:focus,
+.mobile-nav-link.current {
+  color: var(--OCEAN);
+}
+
+.mobile-menu-nav.current,
+.mobile-addr-link.current {
+  color: var(--OCEAN);
+}
+/* icon */
+.mobile-menu-icon {
   display: flex;
   justify-content: center;
   gap: 40px;
@@ -624,6 +642,12 @@ img {
 .icon-link:focus {
   background-color: var(--OCEAN);
 }
+
+.mobile-icon-link:hover,
+.mobile-icon-link:focus {
+  background-color: var(--OCEAN);
+}
+
 .footer-icon-link:hover,
 .footer-icon-link:focus {
   background-color: var(--GREEN);
