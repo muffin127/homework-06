@@ -1066,8 +1066,8 @@ img {
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 408px;
-  min-height: 584px;
+  width: 288px;
+  min-height: 623px;
   transform: translate(-50%, -50%);
 
   border-radius: 4px;
@@ -1077,7 +1077,7 @@ img {
     0 1px 3px 0 rgba(0, 0, 0, 0.12),
     0 1px 1px 0 rgba(0, 0, 0, 0.14);
 
-  padding: 72px 24px 24px 24px;
+  padding: 72px 16px 24px 16px;
   /* Text */
   font-family: Roboto;
   font-style: normal;
@@ -1136,6 +1136,7 @@ img {
 
   font-family: Roboto;
 
+  font-size: 16px;
   font-style: normal;
   font-weight: 500;
   line-height: 1.5;
@@ -1153,7 +1154,7 @@ img {
   display: flex;
   flex-direction: column;
   gap: 4px;
-  width: 360px;
+  width: 256px;
   margin-bottom: 8px;
 }
 
@@ -1242,12 +1243,12 @@ img {
 .field-checkbox {
   display: flex;
   flex-direction: column;
-  width: 360px;
+  width: 100%;
   margin-bottom: 24px;
 }
 
 .label-checkbox {
-  display: inline-flex;
+  display: flex;
   align-items: center;
   gap: 8px;
 
@@ -1262,11 +1263,12 @@ img {
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  flex-shrink: 0;
   width: 16px;
   height: 16px;
 
   cursor: pointer;
-  border: 1px solid var(--NAVY-BLUE);
+  border: 1px solid var(--LIGHT-SLATE);
   border-radius: 2px;
   fill: transparent;
   transition:
@@ -1290,13 +1292,19 @@ img {
   display: block;
 }
 
+.checkbox-text {
+  display: block;
+}
+
 .privacy-link {
   color: var(--IRIS);
+
   font-family: Roboto;
   font-style: normal;
   font-weight: 400;
   line-height: 1.33;
   letter-spacing: 0.04em;
+
   text-decoration-line: underline;
   text-decoration-style: solid;
   text-decoration-skip-ink: none;
@@ -1329,4 +1337,20 @@ img {
 .form-button:hover,
 .form-button:focus {
   background-color: var(--OCEAN);
+}
+
+@media screen and (min-width: 768px) {
+  .modal {
+    width: 408px;
+    min-height: 584px;
+    padding: 72px 24px 24px;
+  }
+
+  .field {
+    width: 360px;
+  }
+
+  .field-checkbox {
+    width: 360px;
+  }
 }
