@@ -1110,7 +1110,7 @@ img {
     display: flex;
     align-items: flex-start;
     flex-wrap: nowrap;
-    gap: 0c;
+    gap: 0;
   }
 
   .footer-info {
