@@ -188,7 +188,8 @@ img {
 }
 
 /* nav */
-.mobile-menu-nav {
+
+.mobile-nav {
   margin-bottom: auto;
 }
 
@@ -230,15 +231,7 @@ img {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.mobile-nav-link:hover,
-.mobile-nav-link:focus,
-.mobile-addr-link:hover,
-.mobile-addr-link:focus,
-.mobile-nav-link.current {
-  color: var(--OCEAN);
-}
-
-.mobile-menu-nav.current,
+.mobile-nav-link.current,
 .mobile-addr-link.current {
   color: var(--OCEAN);
 }
