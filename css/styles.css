@@ -383,12 +383,13 @@ img {
 }
 
 .hero-section .container {
-  max-width: 320px;
+  width: 100%;
+  max-width: 1200px;
   margin: 0 auto;
 
   display: flex;
   flex-direction: column;
-  gap: 72px;
+  gap: 48px;
 }
 
 .hero-title {
@@ -396,7 +397,7 @@ img {
   text-align: center;
 
   font-size: 36px;
-  line-height: 1.25;
+  line-height: 1.111em;
   letter-spacing: 0.02em;
   font-weight: 700;
 
@@ -476,7 +477,7 @@ img {
   }
 
   .hero-section .container {
-    max-width: 1440px;
+    max-width: 1200px;
     gap: 48px;
   }
 
