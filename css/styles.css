@@ -245,7 +245,6 @@ img {
 /* icon */
 .mobile-menu-icon {
   display: flex;
-  justify-content: center;
   gap: 40px;
 
   padding: 0;
@@ -369,7 +368,8 @@ img {
 /* Hero Section */
 .hero-section {
   margin: 0 auto;
-  padding: 72px 16px;
+  max-width: 1440px;
+  padding: 72px 0;
 
   background-image:
     linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
@@ -378,6 +378,7 @@ img {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+
   display: flex;
   justify-content: center;
 }
@@ -442,7 +443,7 @@ img {
 
 @media screen and (min-width: 768px) {
   .hero-section {
-    padding: 112px 16px;
+    padding: 112px 0;
 
     background-image:
       linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
@@ -469,7 +470,7 @@ img {
 
 @media screen and (min-width: 1158px) {
   .hero-section {
-    padding: 188px 16px;
+    padding: 188px 0;
 
     background-image:
       linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
