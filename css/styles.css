@@ -1110,12 +1110,14 @@ img {
     display: flex;
     align-items: flex-start;
     flex-wrap: nowrap;
-    gap: 0;
+    gap: 0c;
   }
 
-  .footer-info,
+  .footer-info {
+    margin-right: 120px;
+  }
   .footer-social {
-    margin-right: 0;
+    margin-right: 80px;
   }
 
   .footer-subscribe {
